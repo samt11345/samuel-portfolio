@@ -1,8 +1,22 @@
 *{margin:0;padding:0;box-sizing: border-box;}
 body {
-    background-color: black;
+    background-color: rgba(40, 218, 144, 0.541);
     color:white
 }
 .wireframe {
-    border:2px solid white
+    border-style: groove ;
+    border-color: rgb(16, 18, 20);
+}
+
+h1
+{text-align: center}
+
+h3{color: #131313;
+font-family: cursive;
+margin: 40px;
+}
+
+nav :hover
+{
+color: rgb(226, 24, 24);
 }
