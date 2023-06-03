@@ -1,11 +1,12 @@
-*{margin:0;padding:0;box-sizing: border-box;}
+/* *{margin:0;padding:0;box-sizing: border-box;} */
 body {
     background-color: rgba(40, 218, 144, 0.541);
     color:white
 }
 .wireframe {
+    display: flex;
+    border-top: #131313;
     border-style: groove ;
-    border-color: rgb(16, 18, 20);
 }
 
 h1
@@ -19,4 +20,9 @@ margin: 40px;
 nav :hover
 {
 color: rgb(226, 24, 24);
+}
+
+header #samspic {
+    object-fit: contain;
+    width: 20%;
 }
