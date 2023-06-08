@@ -1,10 +1,12 @@
-/* *{margin:0;padding:0;box-sizing: border-box;} */
+
 body {
+    font-family: 'Courier New', Courier, monospace;
     background-color: rgba(40, 218, 144, 0.541);
-    color:white
+    font-weight: bolder;
 }
 .wireframe {
     display: flex;
+    display: flex wrap
     border-top: #131313;
     border-style: groove ;
 }
@@ -22,7 +24,34 @@ nav :hover
 color: rgb(226, 24, 24);
 }
 
+header {
+padding: 20px;
+}
+
 header #samspic {
     object-fit: contain;
     width: 20%;
+}
+
+img {
+    object-fit: contain;
+    width: 250px;
+    display:flex;
+    padding: 9px;
+}
+
+#placeholder1 {
+width: 290px;
+display:flex
+padding: 9px;
+}
+
+h3 {
+    color: black;
+
+}
+
+#contact :hover
+{
+color: rgb(226, 24, 24);
 }
