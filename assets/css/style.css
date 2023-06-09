@@ -1,49 +1,67 @@
-
 body {
     font-family: 'Courier New', Courier, monospace;
     background-color: rgba(40, 218, 144, 0.541);
     font-weight: bolder;
 }
+
 .wireframe {
-    display: flex;
-    display: flex wrap
+    /* display: flex;
+    display: flex wrap; */
     border-top: #131313;
-    border-style: groove ;
+    border-style: groove;
 }
 
-h1
-{text-align: center}
-
-h3{color: #131313;
-font-family: cursive;
-margin: 40px;
+h1 {
+    text-align: center
 }
 
-nav :hover
-{
-color: rgb(226, 24, 24);
+h3 {
+    color: #131313;
+    font-family: cursive;
+    margin: 40px;
+}
+
+nav :hover {
+    color: rgb(226, 24, 24);
+}
+
+nav {
+    width: 100%;
+    text-align: center;
+}
+nav ul li {
+    font-size: 20pt;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    /* width: 100%; */
+    justify-content: space-evenly;
 }
 
 header {
-padding: 20px;
+    padding: 20px;
+    display:flex
 }
 
-header #samspic {
-    object-fit: contain;
+#samspic {
+    /* object-fit: contain; */
     width: 20%;
+    border-radius: 20px;
+    box-shadow: 2px 5px 8px 2px  grey;
 }
 
-img {
+/* img {
     object-fit: contain;
     width: 250px;
-    display:flex;
+    display: flex;
     padding: 9px;
-}
+} */
 
 #placeholder1 {
-width: 290px;
-display:flex
-padding: 9px;
+    width: 290px;
+    display: flex;
+    padding: 9px;
 }
 
 h3 {
@@ -51,7 +69,17 @@ h3 {
 
 }
 
-#contact :hover
-{
-color: rgb(226, 24, 24);
+#contact :hover {
+    color: rgb(226, 24, 24);
+}
+#home {
+    border:2px solid black;
+    display:flex;
+
+}
+#home h2 {
+    flex-grow: 1;
+}
+#home div {
+    flex-grow: 2;
 }
