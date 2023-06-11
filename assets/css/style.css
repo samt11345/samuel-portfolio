@@ -15,11 +15,11 @@ h1 {
     text-align: center
 }
 
-h3 {
+/* h3 {
     color: #131313;
     font-family: cursive;
-    margin: 40px;
-}
+    margin: 40px; */
+/* } */
 
 nav :hover {
     color: rgb(226, 24, 24);
@@ -29,57 +29,80 @@ nav {
     width: 100%;
     text-align: center;
 }
+
 nav ul li {
     font-size: 20pt;
 }
+
 nav ul {
     list-style-type: none;
     display: flex;
-    /* width: 100%; */
     justify-content: space-evenly;
+    color: rebeccapurple;
 }
 
 header {
     padding: 20px;
-    display:flex
+    display: flex
 }
 
 #samspic {
     /* object-fit: contain; */
     width: 20%;
     border-radius: 20px;
-    box-shadow: 2px 5px 8px 2px  grey;
+    box-shadow: 2px 5px 8px 2px grey;
 }
 
-/* img {
+img {
     object-fit: contain;
     width: 250px;
     display: flex;
     padding: 9px;
-} */
-
-#placeholder1 {
-    width: 290px;
-    display: flex;
-    padding: 9px;
 }
+
 
 h3 {
     color: black;
-
+    text-align: center;
+    text-decoration: underline;
 }
 
-#contact :hover {
-    color: rgb(226, 24, 24);
-}
 #home {
-    border:2px solid black;
-    display:flex;
+    border: 2px solid black;
+    display: flex;
 
 }
+
 #home h2 {
     flex-grow: 1;
 }
+
 #home div {
     flex-grow: 2;
+}
+
+.info h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.card {
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: rgb(36, 110, 133);
+    border-radius: 10px;
+    box-shadow: 0 10px 15px rgb(10, 10, 10);
+    margin: 34px;
+    justify-content: center;
+    align-items: center;
+}
+
+#first-project {
+    transform: scale(1.05);
+}
+
+footer a:hover {
+    color: black;
 }
