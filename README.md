@@ -8,9 +8,9 @@ Wrote code for a work portfolio webpage
 
 ### Table of Contents
 
-* ** Biography About Me**
-* ** Work samples**
-* ** Contact Info**
+* **Biography About Me**
+* **Work samples**
+* **Contact Info**
 ### Installation
 
 N/A
